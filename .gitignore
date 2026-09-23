@@ -1,0 +1,24 @@
+# Live data files - these hold real client data and must never be committed
+*_data.json
+project_tracker_data*.json
+client_tracker_*.json
+projects_*.csv
+issues_*.csv
+data/
+
+# Local working copies and experiments
+*.local.html
+Project_Tracker_v*.html
+scratch/
+tmp/
+
+# OS and editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+node_modules/
